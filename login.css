@@ -1,0 +1,154 @@
+body{
+
+		/*background-color: #8F2D09;*/
+		background-image: url("https://static.pexels.com/photos/235985/pexels-photo-235985.jpeg");
+		background-size: cover;
+        background-attachment: fixed;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: rgb(245, 245, 245);
+        background-repeat: no-repeat;
+        background-position: right top;
+        image-rendering: -webkit-optimize-contrast;
+        
+       
+
+}
+
+
+.btn{
+	background-color: #512A14;
+}
+
+
+.website{
+	color: white;
+	font-size: 3.75em;
+	font-weight: 600;
+	font-family: Verdana;
+	text-align: center;
+}
+
+#myform{
+	margin-top: 200px;
+}
+
+
+.right{
+	float: right;
+	height: 40px;
+	margin-top: 10px;
+	margin-right: 0;
+	position: relative;
+	vertical-align: top;
+}
+
+.homebtn{
+	background-color: transparent;
+	color: #fff;
+	background-color: rgba(0,0,0,.0941177);
+	box-sizing: border-box;
+	cursor: pointer;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-family: Helvetica Neue, HelveticaNeue, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	height: 40px;
+}
+
+.link1{
+	border:0;
+	height: 40px;
+	line-height: 25px;
+	margin-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.regbtn{
+	background-color: #fff;
+	color: #8F2D09;
+	border: 0;
+	height: 40px;
+	line-height: 22px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+	vertical-align: top;
+	user-select: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-family: Helvetica Neue, HelveticaNeue, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+.form_row{
+	background-color: #fff;
+	z-index: 2;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	border:0;
+	font-size: 100%;
+	vertical-align: baseline;
+
+}
+
+.form-control{
+	height: 50px;
+	display: table-cell;
+}
+
+.signin{
+	display: block;
+	position: relative;
+	z-index: 3;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	text-align: center;
+	background-color: #3E1E0F;
+	color: #fff;
+	border-radius: 0px;
+	font-family: Helvetica Neue, HelveticaNeue, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.signin:hover{
+	background-color: #25140A;
+}
+.glyphicon{
+	background-color: transparent;
+}
+
+
+.input-group-addon{
+	color: #25140A;
+	background-color: transparent;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+
+
+a.homebtn.link{
+	height: 32px;
+	width: 70px;
+}

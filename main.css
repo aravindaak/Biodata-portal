@@ -1,0 +1,117 @@
+body{
+	background-image: url("https://static.pexels.com/photos/235985/pexels-photo-235985.jpeg");
+	background-size: cover;
+        background-attachment: fixed;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: rgb(245, 245, 245);
+        background-repeat: no-repeat;
+        background-position: left top;
+        image-rendering: -webkit-optimize-contrast;
+}
+
+.profile{
+	color: #fff;
+	font-size: 2.75em;
+	font-weight: 600;
+	font-family: Verdana;
+	text-align: center;
+}
+
+.image{
+	height: 106px;
+	width: 106px;
+	text-align: center;
+}
+
+.right{
+	float: right;
+	height: 10px;
+	margin-top: 10px;
+	margin-right: 0;
+	position: relative;
+	vertical-align: top;
+}
+
+.logout{
+	background-color: transparent;
+	color: #fff;
+	background-color: rgba(0,0,0,.0941176);
+	box-sizing: border-box;
+	cursor: pointer;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-family: Helvetica Neue, HelveticaNeue, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	height: 40px;
+}
+
+.link1{
+	border:0;
+	height: 30px;
+	line-height: 25px;
+	margin-right: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.update{
+	background-color: #fff;
+	color: #8F2D09;
+	border: 0;
+	height: 40px;
+	line-height: 22px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: center;
+	vertical-align: top;
+	user-select: none;
+	box-sizing: border-box;
+	cursor: pointer;
+	padding: 5px 7px;
+	border-radius: 2px;
+	font-family: Helvetica Neue, HelveticaNeue, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+
+a:hover{
+	text-decoration: none;
+}
+
+a.update:hover{
+	color:#8F2D09; 
+}
+
+a.logout:hover{
+	color: #fff;
+}
+
+.glyphicon{
+	padding-right: 10px;
+	color:#fff;
+	font-size: 18px;
+}
+
+.det{
+	font-size: 18px;
+	color: #fff;
+	font-family: Verdana;
+}
+
+.main{
+	background-color: rgba(0,0,0,.0941176);
+	background-color: rgba(0,0,0,.0941176);
+	padding: 10px;
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+
+
